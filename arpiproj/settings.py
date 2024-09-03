@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'arpiproj.wsgi.application'
+WSGI_APPLICATION = 'arpiproj.wsgi.app'
 
 
 # Database
