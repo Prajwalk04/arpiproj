@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=y%_butu^f6gb&_31ohg+^rja0*i3dhk7$y)qi%^(cg&3z0*@w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app']
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIRS=os.path.join(BASE_DIR,'arpiproj/templates')
 
